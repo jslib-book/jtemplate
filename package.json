@@ -1,0 +1,16 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jslib-book/template.git",
+  "author": "yanhaijing <yanhaijing@yeah.net>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "project1",
+    "project2"
+  ],
+  "dependencies": {
+    "lerna": "^4.0.0"
+  }
+}
