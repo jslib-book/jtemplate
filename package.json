@@ -7,8 +7,7 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "project1",
-    "project2"
+    "packages/parser"
   ],
   "dependencies": {
     "lerna": "^4.0.0"
