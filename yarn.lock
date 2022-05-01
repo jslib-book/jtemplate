@@ -871,22 +871,6 @@
     pirates "^4.0.5"
     source-map-support "^0.5.16"
 
-"@babel/runtime-corejs2@^7.12.5":
-  version "7.17.11"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs2/-/runtime-corejs2-7.17.11.tgz#4c2c9cbc59802f905fb4631be77af33d117a620f"
-  integrity sha512-pJe8Aerb88TGVi1Xe/AE36aRCPrg+h6ktZPGl6xaJvOfTLcMMuogQu3BYcxeXPTNHhSYbmsDVYBs8CfAxeFFTg==
-  dependencies:
-    core-js "^2.6.12"
-    regenerator-runtime "^0.13.4"
-
-"@babel/runtime-corejs3@^7.12.5":
-  version "7.17.9"
-  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.17.9.tgz#3d02d0161f0fbf3ada8e88159375af97690f4055"
-  integrity sha512-WxYHHUWF2uZ7Hp1K+D1xQgbgkGUfA+5UPOegEXGt2Y5SMog/rYCVaifLZDbw8UkNXozEqqrZTy6bglL7xTaCOw==
-  dependencies:
-    core-js-pure "^3.20.2"
-    regenerator-runtime "^0.13.4"
-
 "@babel/runtime@^7.1.2", "@babel/runtime@^7.8.4":
   version "7.17.9"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.17.9.tgz#d19fbf802d01a8cb6cf053a64e472d42c434ba72"
@@ -1013,34 +997,24 @@
     yargs "^17.3.1"
 
 "@jslib-book/clone@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@jslib-book/clone/-/clone-1.0.0.tgz#c1715f971376c5da035f13db79c4f41c9aa0f653"
-  integrity sha512-ArI8iqBZA+oZLeo3LRcmhiVNPqSCcEhLTnqu1y8O5/UzQzrbpQaWb+9hZORjq8TzC+Vs56vCB3AiAFvwBEFYwA==
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@jslib-book/clone/-/clone-1.0.1.tgz#78a115a17cf739f23f4754b926a1685db6c28b36"
+  integrity sha512-eQvzLW0K2TnPm9AHJeU2fHbR0/a84FV6j82nqnMH3DwBVpggnWSnSeBh38mvjQ9jZY/levsEIg2yzX4iJngHNg==
   dependencies:
-    "@babel/runtime-corejs2" "^7.12.5"
-    "@babel/runtime-corejs3" "^7.12.5"
     "@jslib-book/type" "^1.0.0"
-    core-js "^3.7.0"
 
 "@jslib-book/extend@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@jslib-book/extend/-/extend-1.0.1.tgz#0a63d709b69c01a93606e9cb7b794bc49f564d1a"
-  integrity sha512-mtYB3uLZTaxz3+zuKi0jTxvjkzEUzX48DWZXzVNBIknEXMCVTQHzOIJeh+mCh8R0gE72tBJkNkFa4kW2Hc9zLw==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@jslib-book/extend/-/extend-1.0.2.tgz#3aa0d3d9cf2564d5db9655bbf36c8a82f26739af"
+  integrity sha512-KF4EKQhwi6lGKamGhNJ3jzxmwIyOqvFB6kIWzVo28kxZAXEuEroLZ7iZqEbd3IP2fCd5RsCDv6siKjNTWEtZ7Q==
   dependencies:
-    "@babel/runtime-corejs2" "^7.12.5"
-    "@babel/runtime-corejs3" "^7.12.5"
     "@jslib-book/clone" "^1.0.0"
     "@jslib-book/type" "^1.0.0"
-    core-js "^3.7.0"
 
-"@jslib-book/type@^1.0.0":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@jslib-book/type/-/type-1.0.1.tgz#215cf80d5a682456351bb5f5a87d90d650380d72"
-  integrity sha512-ZwfNOVnX6vtYwgxKsNtX0R2RJ+8IwXbxm82Ck4LuoMLjfbM3z4rNh/4nGXZ/6dRiTYlgdCxHsS68qDQoVCdd9Q==
-  dependencies:
-    "@babel/runtime-corejs2" "^7.12.5"
-    "@babel/runtime-corejs3" "^7.12.5"
-    core-js "^3.7.0"
+"@jslib-book/type@^1.0.0", "@jslib-book/type@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@jslib-book/type/-/type-1.0.2.tgz#5e63e2205df7ca442b0d597c46c87221645e7797"
+  integrity sha512-sjUvNoRdpFC4T9BA1v8fTahLP+8oKZaEbBWlm+UJYJgteHVfadmme9sjiAngL9IG/ljcZMaFst8RCMvWyx2Fmg==
 
 "@jsmini/extend@^0.3.3":
   version "0.3.3"
@@ -2321,10 +2295,10 @@ buffer@^5.5.0:
     base64-js "^1.3.1"
     ieee754 "^1.1.13"
 
-builtin-modules@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-2.0.0.tgz#60b7ef5ae6546bd7deefa74b08b62a43a232648e"
-  integrity sha512-3U5kUA5VPsRUA3nofm/BXX7GVHKfxz0hOBAPxXrIvHzlDRkQVqEn6yi8QJegxl4LzOHLdvb7XF5dVawa/VVYBg==
+builtin-modules@^1.1.0:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/builtin-modules/-/builtin-modules-1.1.1.tgz#270f076c5a72c02f5b65a47df94c5fe3a278892f"
+  integrity sha1-Jw8HbFpywC9bZaR9+Uxf46J4iS8=
 
 builtins@^1.0.3:
   version "1.0.3"
@@ -2729,21 +2703,6 @@ core-js-compat@^3.21.0, core-js-compat@^3.22.1:
   dependencies:
     browserslist "^4.20.3"
     semver "7.0.0"
-
-core-js-pure@^3.20.2:
-  version "3.22.3"
-  resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.22.3.tgz#181d1b6321fb29fe99c16a1f28beb840ab84ad36"
-  integrity sha512-oN88zz7nmKROMy8GOjs+LN+0LedIvbMdnB5XsTlhcOg1WGARt9l0LFg0zohdoFmCsEZ1h2ZbSQ6azj3M+vhzwQ==
-
-core-js@^2.6.12:
-  version "2.6.12"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
-  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
-
-core-js@^3.7.0:
-  version "3.22.3"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.22.3.tgz#498c41d997654cb00e81c7a54b44f0ab21ab01d5"
-  integrity sha512-1t+2a/d2lppW1gkLXx3pKPVGbBdxXAkqztvWb1EJ8oF8O2gIGiytzflNiFEehYwVK/t2ryUsGBoOFFvNx95mbg==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -6071,18 +6030,18 @@ rimraf@^3.0.2:
   dependencies:
     glob "^7.1.3"
 
-rollup-plugin-babel@^4.0.3:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-babel/-/rollup-plugin-babel-4.4.0.tgz#d15bd259466a9d1accbdb2fe2fff17c52d030acb"
-  integrity sha512-Lek/TYp1+7g7I+uMfJnnSJ7YWoD58ajo6Oarhlex7lvUce+RCKRuGRSgztDO3/MF/PuGKmUL5iTHKf208UNszw==
+rollup-plugin-babel@4.3.3:
+  version "4.3.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-babel/-/rollup-plugin-babel-4.3.3.tgz#7eb5ac16d9b5831c3fd5d97e8df77ba25c72a2aa"
+  integrity sha512-tKzWOCmIJD/6aKNz0H1GMM+lW1q9KyFubbWzGiOG540zxPPifnEAHTZwjo0g991Y+DyOZcLqBgqOdqazYE5fkw==
   dependencies:
     "@babel/helper-module-imports" "^7.0.0"
     rollup-pluginutils "^2.8.1"
 
-rollup-plugin-commonjs@^8.3.0:
-  version "8.4.1"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.4.1.tgz#5c9cea2b2c3de322f5fbccd147e07ed5e502d7a0"
-  integrity sha512-mg+WuD+jlwoo8bJtW3Mvx7Tz6TsIdMsdhuvCnDMoyjh0oxsVgsjB/N0X984RJCWwc5IIiqNVJhXeeITcc73++A==
+rollup-plugin-commonjs@8.3.0:
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-commonjs/-/rollup-plugin-commonjs-8.3.0.tgz#91b4ba18f340951e39ed7b1901f377a80ab3f9c3"
+  integrity sha512-PYs3OiYgENFYEmI3vOEm5nrp3eY90YZqd5vGmQqeXmhJsAWFIrFdROCvOasqJ1HgeTvqyYo9IGXnFDyoboNcgQ==
   dependencies:
     acorn "^5.2.1"
     estree-walker "^0.5.0"
@@ -6090,12 +6049,12 @@ rollup-plugin-commonjs@^8.3.0:
     resolve "^1.4.0"
     rollup-pluginutils "^2.0.1"
 
-rollup-plugin-node-resolve@^3.0.3:
-  version "3.4.0"
-  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.4.0.tgz#908585eda12e393caac7498715a01e08606abc89"
-  integrity sha512-PJcd85dxfSBWih84ozRtBkB731OjXk0KnzN0oGp7WOWcarAFkVa71cV5hTJg2qpVsV2U8EUwrzHP3tvy9vS3qg==
+rollup-plugin-node-resolve@3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/rollup-plugin-node-resolve/-/rollup-plugin-node-resolve-3.0.3.tgz#8f57b253edd00e5b0ad0aed7b7e9cf5982e98fa4"
+  integrity sha512-qJLXJ1aASV6p8SrEfRdQdHmb5OQmqXyIWIdVGcju8QFzftSsHcuL554Vy+n8mr0fZCC+ksO6aWJ7TAVl2F+Qwg==
   dependencies:
-    builtin-modules "^2.0.0"
+    builtin-modules "^1.1.0"
     is-module "^1.0.0"
     resolve "^1.1.6"
 
