@@ -6,13 +6,18 @@
   "author": "yanhaijing <yanhaijing@yeah.net>",
   "license": "MIT",
   "private": true,
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
   "workspaces": [
     "packages/parser",
     "packages/precompiler",
-    "packages/template"
+    "packages/template",
+    "packages/jtemplate-loader"
   ],
   "dependencies": {
-    "lerna": "^4.0.0"
+    "lerna": "^3.16.4"
   },
   "scripts": {
     "lint:prettier": "prettier --check .",
