@@ -1,6 +1,6 @@
 {
   "name": "@jtemplate/precompiler",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "author": "jtemplate",
   "license": "MIT",
@@ -34,7 +34,7 @@
   "module": "dist/index.esm.js",
   "sideEffects": false,
   "dependencies": {
-    "@jtemplate/parser": "^1.0.2",
+    "@jtemplate/parser": "^1.0.3",
     "esprima": "^4.0.1",
     "estraverse": "^4.3.0"
   }
