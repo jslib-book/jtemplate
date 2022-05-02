@@ -1,6 +1,6 @@
 {
   "name": "jtemplate-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "author": "jtemplate",
   "license": "MIT",
@@ -34,6 +34,6 @@
   "module": "dist/index.esm.js",
   "sideEffects": false,
   "dependencies": {
-    "@jtemplate/precompiler": "^1.0.1"
+    "@jtemplate/precompiler": "^1.0.2"
   }
 }
