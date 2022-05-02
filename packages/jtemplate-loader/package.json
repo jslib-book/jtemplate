@@ -1,6 +1,6 @@
 {
   "name": "jtemplate-loader",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "author": "jtemplate",
   "license": "MIT",
@@ -12,6 +12,10 @@
     "build:esm": "rollup -c config/rollup.config.esm.js",
     "build:aio": "rollup -c config/rollup.config.aio.js",
     "build": "npm run build:self && npm run build:esm"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
@@ -34,6 +38,6 @@
   "module": "dist/index.esm.js",
   "sideEffects": false,
   "dependencies": {
-    "@jtemplate/precompiler": "^1.0.0"
+    "@jtemplate/precompiler": "^1.0.3"
   }
 }

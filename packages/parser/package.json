@@ -1,6 +1,6 @@
 {
   "name": "@jtemplate/parser",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
   "author": "jtemplate",
   "license": "MIT",
@@ -12,6 +12,10 @@
     "build:esm": "rollup -c config/rollup.config.esm.js",
     "build:aio": "rollup -c config/rollup.config.aio.js",
     "build": "npm run build:self && npm run build:esm && npm run build:aio"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "devDependencies": {
     "@babel/core": "^7.1.2",
