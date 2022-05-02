@@ -1,6 +1,6 @@
 {
   "name": "@jtemplate/template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "author": "jtemplate",
   "license": "MIT",
@@ -35,6 +35,6 @@
   "sideEffects": false,
   "dependencies": {
     "@jslib-book/type": "^1.0.2",
-    "@jtemplate/parser": "^1.0.0"
+    "@jtemplate/parser": "^1.0.1"
   }
 }
