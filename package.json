@@ -9,7 +9,8 @@
   "workspaces": [
     "packages/parser",
     "packages/precompiler",
-    "packages/template"
+    "packages/template",
+    "packages/jtemplate-loader"
   ],
   "dependencies": {
     "lerna": "^4.0.0"
